@@ -1,0 +1,15 @@
+{
+    "name": "xtratio/onlinepbx-api",
+    "description": "onlinepbx.ru http api clinet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xtratio",
+            "email": "extremumratio@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {"Onpbx\\": "lib/"}
+    }
+}
