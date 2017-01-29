@@ -1,5 +1,5 @@
 <?php
-namespace Onpbx\Util;
+namespace xtratio\Onpbx\Util;
 /**
  * A general-purpose implementation that includes the optional functionality
  * of allowing multiple base directories for a single namespace prefix.

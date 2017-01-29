@@ -1,8 +1,8 @@
 <?php
-namespace Onpbx;
+namespace xtratio\Onpbx;
 
-use Onpbx\Http\Client;
-use Onpbx\Response\ApiJsonResponse;
+use xtratio\Onpbx\Http\Client;
+use xtratio\Onpbx\Response\ApiJsonResponse;
 
 /**
  *  API client class

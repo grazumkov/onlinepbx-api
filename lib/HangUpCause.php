@@ -1,5 +1,5 @@
 <?php
-namespace Onpbx;
+namespace xtratio\Onpbx;
 /*
 * Список причин завершения звонков
 */
