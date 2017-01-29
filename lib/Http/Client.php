@@ -1,9 +1,9 @@
 <?php
-namespace Onpbx\Http;
+namespace xtratio\Onpbx\Http;
 
-use Onpbx\Exception\AuthException;
-use Onpbx\Exception\CurlException;
-use Onpbx\Response\ApiJsonResponse;
+use xtratio\Onpbx\Exception\AuthException;
+use xtratio\Onpbx\Exception\CurlException;
+use xtratio\Onpbx\Response\ApiJsonResponse;
 
 /**
  * HTTP client

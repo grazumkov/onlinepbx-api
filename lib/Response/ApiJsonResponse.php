@@ -1,7 +1,7 @@
 <?php
-namespace Onpbx\Response;
+namespace xtratio\Onpbx\Response;
 
-use Onpbx\Exception\InvalidJsonException;
+use xtratio\Onpbx\Exception\InvalidJsonException;
 use ArrayAccess;
 
 /**

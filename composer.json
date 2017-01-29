@@ -1,6 +1,8 @@
 {
     "name": "xtratio/onlinepbx-api",
     "description": "onlinepbx.ru http api clinet",
+    "keywords": ["onlinepbx","onpbx","api","http"],
+    "homepage": "https://github.com/xtratio/onlinepbx-api",
     "license": "MIT",
     "authors": [
         {
@@ -10,6 +12,6 @@
     ],
     "require": {},
     "autoload":{
-        "psr-4": {"Onpbx\\": "lib/"}
+        "psr-4": {"xtratio\\Onpbx\\": "lib/"}
     }
 }
