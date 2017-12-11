@@ -12,7 +12,7 @@ class Client
 {
     const METHOD_GET = 'GET';
     const METHOD_POST = 'POST';
-    const API_BASE_PROTO = "http";
+    const API_BASE_PROTO = "https";
     const API_BASE = 'api.onlinepbx.ru/';
 
     protected $baseUrl;
