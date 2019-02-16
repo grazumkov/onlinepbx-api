@@ -18,7 +18,7 @@ class Client
     protected $baseUrl;
     protected $authKey;
     protected $needNew;
-    // received after autharization
+    // received after authorization
     protected $secretKey;
     protected $secretKeyId;
 
@@ -43,12 +43,12 @@ class Client
         try {
             $result = $this->sendHttpRequest("auth.json", self::METHOD_POST, $data);
             if($result["status"] != 1){
-                throw new AuthException("Api autharization error", 1);
+                throw new AuthException("Api authorization error", 1);
             }
             $this->secretKey = $result["data"]["key"];
             $this->secretKeyId = $result["data"]["key_id"];
         } catch (CurlException $e) {
-            throw new AuthException("Api autharization request error", 2, $e);
+            throw new AuthException("Api authorization request error", 2, $e);
         }
 	}
     
