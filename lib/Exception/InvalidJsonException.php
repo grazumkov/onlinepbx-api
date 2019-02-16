@@ -1,6 +1,6 @@
 <?php
 namespace xtratio\Onpbx\Exception;
 
-class InvalidJsonException extends DomainException
+class InvalidJsonException extends \DomainException
 {
 }

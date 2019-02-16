@@ -251,7 +251,7 @@ class ApiClient
             throw new InvalidArgumentException('Num not set');
         }
         
-        return $this->client->sendRequest("user/get.json", $data);
+        return $this->client->sendRequest("user/get.json", ['num' => $num]);
     }
     
       /**

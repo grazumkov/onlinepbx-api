@@ -1,6 +1,6 @@
 <?php
 namespace xtratio\Onpbx\Exception;
 
-class AuthException extends RuntimeException
+class AuthException extends \RuntimeException
 {
 }
